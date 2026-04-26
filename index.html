@@ -535,7 +535,10 @@ footer a:hover{opacity:.7;}
   .logo-title{font-size:21px;letter-spacing:1px;line-height:1;white-space:nowrap;text-align:center;}
   .header-sub{margin-left:0;margin-top:12px;font-size:9.5px;line-height:1.45;letter-spacing:2.1px;word-break:keep-all;text-align:center;}
   .pills{margin-left:0;margin-top:14px;display:flex;flex-wrap:nowrap;gap:4px;width:100%;max-width:100%;overflow:visible;justify-content:center;}
-  .pill{flex:1 1 0;min-width:0;text-align:center;white-space:nowrap;padding:5px 3px;border-radius:6px;font-size:8px;line-height:1.1;letter-spacing:.45px;}
+  .pill{min-width:0;text-align:center;white-space:nowrap;padding:5px 3px;border-radius:6px;font-size:8px;line-height:1.1;letter-spacing:.35px;}
+  .pills .pill:nth-child(1),
+  .pills .pill:nth-child(3){flex:0 1 27%;}
+  .pills .pill:nth-child(2){flex:1 1 46%;padding-left:6px;padding-right:6px;letter-spacing:.15px;}
   .theme-toggle{position:absolute;right:0;top:23px;width:auto;max-width:none;margin-top:0;padding:6px 7px;gap:5px;justify-content:center;border-radius:999px;font-size:10px;letter-spacing:0;}
   .theme-toggle #tLabel{display:none;}
   .t-icon{font-size:14px;}
@@ -598,7 +601,10 @@ footer a:hover{opacity:.7;}
   .logo-mark{width:38px;height:38px;}
   .logo-title{font-size:20px;}
   .header-sub{font-size:9px;letter-spacing:1.8px;}
-  .pill{font-size:7.4px;padding:5px 2px;letter-spacing:.25px;}
+  .pill{font-size:7.2px;padding:5px 2px;letter-spacing:.1px;}
+  .pills .pill:nth-child(1),
+  .pills .pill:nth-child(3){flex-basis:26%;}
+  .pills .pill:nth-child(2){flex-basis:48%;font-size:7.2px;padding-left:4px;padding-right:4px;letter-spacing:0;}
   .theme-toggle{padding:5px 6px;}
   .t-icon{font-size:13px;}
   .t-track{width:26px;height:15px;}
